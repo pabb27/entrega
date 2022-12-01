@@ -1,0 +1,53 @@
+.contenedorCarousel {
+    background-color: #1c649e;
+}
+.tamanoCarousel {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    padding-bottom: 5%;
+}
+
+.tamanoCarousel h3{
+    background-color: rgba(211, 232, 247, 0);
+    color: black;
+    text-shadow: 10px;
+    text-shadow: #000000;
+
+}
+
+.titulo-oferta h1{
+    background-color: #1c649e;
+    color: white;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+.d-block {
+    background-color: rgb(151, 205, 255);
+    border-radius: 10%;
+}
+
+ 
+.tamanoCarousel p{
+    color: black;
+
+}
+
+@media (max-width: 768px){
+    .tamanoCarousel p{
+        color: black;
+        font-size: 15px;
+    }
+
+    .tamanoCarousel h3{
+        font-size: 15px;
+
+    }
+
+}
