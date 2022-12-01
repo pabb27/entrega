@@ -1,0 +1,40 @@
+.counter{
+    width: 100%;
+    background-color: rgb(28, 101, 160);
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.sumarestar{
+    width: 10%;
+    height: 50%;
+    background-color: white;
+    color: rgb(2, 26, 78);
+    border-radius: 10%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.agregaralcarrito{
+    width: 34%;
+    border-radius: 5%;
+    background-color: white;
+    color: rgb(28, 101, 160);
+}
+
+.agregaralcarrito:hover{
+ 
+    color: rgb(228, 224, 29);
+}
+
+
+@media(max-width: 768px){
+
+    .agregaralcarrito{
+      font-size: 12px;
+    } 
+}

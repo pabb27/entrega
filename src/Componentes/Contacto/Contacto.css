@@ -1,9 +1,5 @@
-.container{    
- 
-    position: relative;
-    background-color: blue;
 
-}
+ 
 
 .todo{
     background-color: #0f4f84;;
@@ -13,9 +9,9 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: absolute;
+    align-items: center;   
     background-color: #0f4f84;
+  
 }
 
 .campo{

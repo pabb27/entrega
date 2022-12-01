@@ -7,7 +7,8 @@ import ariel from "./Imagenes/ariel.png";
 import flit from "./Imagenes/flit.png";
 import quitasarro from "./Imagenes/quitasarro.png";
 import vivere from "./Imagenes/vivere.png";
-import cloro110 from "./Imagenes/cloro110.png";
+import cloro110 from "./Imagenes/cloro110.png"; 
+import Add from '../Addbutton/Add'
 
 const Productos = () => {
     const [Perfuminas, setPerfuminas] = useState ([
@@ -75,7 +76,7 @@ const Productos = () => {
             name={producto.name} 
             presentacion={producto.presentacion} 
             precioMinorista={producto.precioMinorista} />
-            <button className="addcart"/*onClick={}*/ >Agregar</button>
+            <Add/>       
         </div> )
         })};
 
